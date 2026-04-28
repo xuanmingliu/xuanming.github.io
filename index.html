@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xuanming Liu</title>
+  <meta name="keywords" content="Xuanming Liu, Liu Xuanming, 刘轩铭, Generative AI, Multimodal Models">
+  <style>
+    html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, ol {
+      border: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 100%;
+      font-style: inherit;
+      font-weight: inherit;
+      margin: 0;
+      outline: none;
+      padding: 0;
+      vertical-align: baseline;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      position: relative;
+      margin: 2em auto;
+      width: 830px;
+      font-family: "Open Sans", Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      background: #F4F6F6;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #01649b;
+      text-decoration: none;
+    }
+
+    a:hover, a:focus {
+      color: #f09228;
+      text-decoration: underline;
+    }
+
+    h2 {
+      font-size: 15pt;
+      font-weight: 700;
+      margin-bottom: 0.55em;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0.25em 0;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 1.35em;
+    }
+
+    li {
+      padding-bottom: 0.45em;
+    }
+
+    .section {
+      clear: both;
+      margin-bottom: 1.2em;
+      background: #F4F6F6;
+    }
+
+    .hero, .bio, .paper, .res {
+      clear: both;
+      background: #fff;
+      border-radius: 10px;
+    }
+
+    .hero {
+      margin-bottom: 1em;
+      padding: 1.2em;
+      min-height: 190px;
+    }
+
+    .bio {
+      margin-top: 0.4em;
+      margin-bottom: 0.7em;
+      padding: 0.7em 0.9em;
+      line-height: 1.7;
+    }
+
+    .paper, .res {
+      margin-top: 0.45em;
+      margin-bottom: 0.75em;
+      padding: 0.7em 0.9em;
+      line-height: 1.6;
+      transition: background 0.15s ease;
+    }
+
+    .paper:hover, .res:hover {
+      background: #FFFDEE;
+    }
+
+    .avatar {
+      float: left;
+      width: 170px;
+      height: 170px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #455A64, #78909C);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .hero-text {
+      padding-left: 15.5em;
+      min-height: 170px;
+    }
+
+    .name {
+      margin-top: 0.2em;
+      margin-bottom: 0.4em;
+      font-size: 22pt;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      color: #555;
+      margin-bottom: 0.9em;
+    }
+
+    .links {
+      margin: 0.7em 0 1em;
+    }
+
+    .links a {
+      margin-right: 1.25em;
+      font-weight: 600;
+    }
+
+    .meta p {
+      margin: 0.15em 0;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.1em 0.4em 0.18em;
+      font-size: 85%;
+      font-weight: 700;
+      line-height: 1;
+      color: #fff;
+      background-color: #428bca;
+      border-radius: 4px;
+      margin-right: 0.5em;
+    }
+
+    .tag.accepted {
+      background-color: #5cb85c;
+    }
+
+    .tag.review {
+      background-color: #6B6B6B;
+    }
+
+    .muted {
+      color: #666;
+    }
+
+    #nav {
+      font-family: Georgia, Helvetica, sans-serif;
+      position: fixed;
+      top: 50px;
+      margin-left: 830px;
+      width: 110px;
+      font-size: 14px;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    #nav li {
+      margin: 0 0 1px 0;
+      padding-bottom: 0;
+      list-style: none;
+    }
+
+    #nav a {
+      display: block;
+      padding: 6px 9px 7px;
+      color: #fff;
+      background-color: #455A64;
+      text-decoration: none;
+    }
+
+    #nav a:hover {
+      color: #ffde00;
+      text-decoration: none;
+    }
+
+    @media (max-width: 1100px) {
+      #nav {
+        display: none;
+      }
+    }
+
+    @media (max-width: 880px) {
+      body {
+        width: auto;
+        margin: 1em;
+      }
+
+      .avatar {
+        float: none;
+        margin-bottom: 1em;
+      }
+
+      .hero-text {
+        padding-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <ol id="nav">
+    <li><a href="#home" title="Home">Home</a></li>
+    <li><a href="#about" title="About">About</a></li>
+    <li><a href="#education" title="Education">Education</a></li>
+    <li><a href="#projects" title="Projects">Projects</a></li>
+    <li><a href="mailto:xuanmingliu0120@gmail.com" title="Contact">Contact</a></li>
+  </ol>
+
+  <a id="home"></a>
+  <div class="hero">
+    <div class="avatar">XL<br><span style="font-size:16px;font-weight:600;letter-spacing:0.5px;">刘轩铭</span></div>
+    <div class="hero-text">
+      <p class="name">Xuanming Liu</p>
+      <p class="subtitle">Senior High School Student · Generative AI · Efficient Multimodal Models</p>
+      <div class="links">
+        <a href="https://brandon-liu-jx.github.io/">Homepage</a>
+        <a href="mailto:xuanmingliu0120@gmail.com">Email</a>
+      </div>
+      <div class="meta">
+        <p><strong>Email:</strong> xuanmingliu0120@gmail.com</p>
+        <p><strong>Mobile:</strong> +86-15852944435</p>
+        <p><strong>Location:</strong> Nanjing, Jiangsu, China</p>
+        <p><strong>Status:</strong> Senior high school student, Sep 2024 - Present</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="about">
+    <h2>About Me</h2>
+    <div class="bio">
+      <p>I am Xuanming Liu (刘轩铭), a senior high school student in Nanjing, Jiangsu, China. My research interests lie in <em>Generative AI</em> and <em>Efficient Multimodal Models</em>.</p>
+      <p>My research focus is on the exploration of efficient generative models, with an emphasis on innovative methods that go beyond the traditional expansion paradigm. The ultimate goal is to construct an efficient and interactive world model by integrating rapid pattern matching with cautious reasoning, and to promote real-time applications ranging from on-device creative assistants to scalable intelligent agent systems.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Research Interests</h2>
+    <div class="res">
+      <ul>
+        <li>Generative AI</li>
+        <li>Efficient Multimodal Models</li>
+        <li>Efficient generative modeling beyond conventional scaling paradigms</li>
+        <li>Interactive world models combining fast pattern matching and cautious reasoning</li>
+        <li>Real-time intelligent systems from on-device assistants to scalable agent systems</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Full Time Working and Internship Experience</h2>
+    <div class="res">
+      <p class="muted">Experience details will be updated here.</p>
+    </div>
+  </div>
+
+  <div class="section" id="education">
+    <h2>Education</h2>
+    <div class="paper">
+      <p><strong>A High School in China</strong>, Nanjing, Jiangsu, China</p>
+      <p>Senior high school student</p>
+      <p class="muted">Sep 2024 - Present</p>
+    </div>
+  </div>
+
+  <div class="section" id="projects">
+    <h2>Representative Projects</h2>
+
+    <div class="paper">
+      <p><span class="tag accepted">ICLR 2026</span><strong>Streaming Autoregressive Video Generation via Diagonal Distillation</strong></p>
+      <p>Jinxiu Liu, Xuanming Liu, Kangfu Mei, Yandong Wen, Ming-Hsuan Yang, Weiyang Liu</p>
+      <p class="muted">Accepted by ICLR 2026, Top 10.75% submission according to Paper Copilot statistics.</p>
+      <p><a href="https://arxiv.org/abs/2603.09488">Paper Link</a></p>
+    </div>
+
+    <div class="paper">
+      <p><span class="tag review">Under Review</span><strong>SymbOmni: Evolving Agentic Omni Models via Symbolic Concept Learning</strong></p>
+      <p>Jinxiu Liu, Jianru Li, Kuang Tanqing, Xuanning Liu, Kangfu Mei, Yandong Wen, Weiyang Liu</p>
+      <p class="muted">CVPR 2026 Under Review, Top 17% Submission.</p>
+      <p>Paper Link</p>
+    </div>
+
+    <div class="paper">
+      <p><span class="tag review">Under Review</span><strong>XYZFlow: Scaling Multidimensional Shortcut Flows for Efficient Generative Modeling</strong></p>
+      <p>Xuanning Liu, Jinxiu Liu, Kangfu Mei, Yandong Wen, Weiyang Liu</p>
+      <p class="muted">ICML 2026 Under Review.</p>
+      <p>Paper Link</p>
+    </div>
+  </div>
+</body>
+</html>
