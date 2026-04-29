@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Xuanming Liu</title>
-  <meta name="keywords" content="Xuanming Liu, Liu Xuanming, 刘轩铭, Generative AI, Multimodal Models">
+  <meta name="keywords" content="Xuanming Liu, Liu Xuanming, 刘轩铭, Generative AI, Efficient Multimodal Models, Video Generation">
   <style>
     html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, ol {
       border: 0;
@@ -235,8 +235,9 @@
   <ol id="nav">
     <li><a href="#home" title="Home">Home</a></li>
     <li><a href="#about" title="About">About</a></li>
-    <li><a href="#education" title="Education">Education</a></li>
+    <li><a href="#experience" title="Experience">Experience</a></li>
     <li><a href="#projects" title="Projects">Projects</a></li>
+    <li><a href="#opensource" title="Open Source">Open Source</a></li>
     <li><a href="mailto:xuanmingliu0120@gmail.com" title="Contact">Contact</a></li>
   </ol>
 
@@ -245,16 +246,17 @@
     <div class="avatar-wrap"><img class="avatar" src="./life.jpg" alt="Xuanming Liu portrait"></div>
     <div class="hero-text">
       <p class="name">Xuanming Liu</p>
-      <p class="subtitle">Senior High School Student · Generative AI · Efficient Multimodal Models</p>
+      <p class="subtitle">Student Researcher · Generative AI · Efficient Multimodal Models</p>
       <div class="links">
-        <a href="https://brandon-liu-jx.github.io/">Homepage</a>
+        <a href="https://xuanmingliu.github.io/xuanming.github.io/">Homepage</a>
         <a href="mailto:xuanmingliu0120@gmail.com">Email</a>
+        <a href="./Xuanming_Liu_resume%20(3).pdf">Resume</a>
       </div>
       <div class="meta">
         <p><strong>Email:</strong> xuanmingliu0120@gmail.com</p>
         <p><strong>Mobile:</strong> +86-15852944435</p>
         <p><strong>Location:</strong> Nanjing, Jiangsu, China</p>
-        <p><strong>Status:</strong> Senior high school student, Sep 2024 - Present</p>
+        <p><strong>Homepage:</strong> https://xuanmingliu.github.io/xuanming.github.io/</p>
       </div>
     </div>
   </div>
@@ -262,8 +264,9 @@
   <div class="section" id="about">
     <h2>About Me</h2>
     <div class="bio">
-      <p>I am Xuanming Liu (刘轩铭), a senior high school student in Nanjing, Jiangsu, China. My research interests lie in <em>Generative AI</em> and <em>Efficient Multimodal Models</em>.</p>
-      <p>My research focus is on the exploration of efficient generative models, with an emphasis on innovative methods that go beyond the traditional expansion paradigm. The ultimate goal is to construct an efficient and interactive world model by integrating rapid pattern matching with cautious reasoning, and to promote real-time applications ranging from on-device creative assistants to scalable intelligent agent systems.</p>
+      <p>I am Xuanming Liu (刘轩铭), a student researcher focused on <em>Generative AI</em> and <em>Efficient Multimodal Models</em>. I am currently an intern at Sphere Lab, advised by Jinxiu Liu and Weiyang Liu.</p>
+      <p>My research centers on overcoming the efficiency-quality dilemma in generative AI. While modern generative models perform strongly in offline evaluation, their high inference cost still limits real-time interaction, mobile deployment, and long-form generation. I study how generative AI can remain both <em>fast</em> and <em>light</em> without giving up strong performance.</p>
+      <p>More specifically, I explore directions beyond simple compression, including dynamic compute allocation, essential optimization of the generation process, and joint training-inference co-design, with the goal of unlocking new possibilities for game simulation, real-time creation, and edge computing.</p>
     </div>
   </div>
 
@@ -271,28 +274,34 @@
     <h2>Research Interests</h2>
     <div class="res">
       <ul>
-        <li>Generative AI</li>
-        <li>Efficient Multimodal Models</li>
-        <li>Efficient generative modeling beyond conventional scaling paradigms</li>
-        <li>Interactive world models combining fast pattern matching and cautious reasoning</li>
-        <li>Real-time intelligent systems from on-device assistants to scalable agent systems</li>
+        <li>Generative AI and efficient multimodal models</li>
+        <li>Breaking the efficiency-quality tradeoff in generative modeling</li>
+        <li>Dynamic compute allocation and generation-process optimization</li>
+        <li>Training-inference co-design for fast, lightweight generation</li>
+        <li>Applications in game simulation, real-time creation, and edge computing</li>
       </ul>
     </div>
   </div>
 
-  <div class="section">
-    <h2>Full Time Working and Internship Experience</h2>
-    <div class="res">
-      <p class="muted">Experience details will be updated here.</p>
+  <div class="section" id="experience">
+    <h2>Internship Experience</h2>
+    <div class="paper">
+      <p><strong>Sphere Lab</strong>, Hong Kong, China</p>
+      <p>Internship, advised by Jinxiu Liu and Weiyang Liu</p>
+      <p class="muted">July 2025 - Present</p>
+      <ul>
+        <li>Designed a novel distillation method for video generation models, achieving over 1.53× speedup compared to CausVid.</li>
+        <li>Designed a structured shortcut method that strengthens probability flow with multidimensional time-space constraints for efficient generation.</li>
+      </ul>
     </div>
   </div>
 
   <div class="section" id="education">
     <h2>Education</h2>
     <div class="paper">
-      <p><strong>A High School in China</strong>, Nanjing, Jiangsu, China</p>
-      <p>Senior high school student</p>
-      <p class="muted">Sep 2024 - Present</p>
+      <p><strong>Nanjing Normal University Affiliated Middle School</strong>, Nanjing, Jiangsu, China</p>
+      <p>Full-time student</p>
+      <p class="muted">Sep 2021 - Jun 2024</p>
     </div>
   </div>
 
@@ -301,23 +310,55 @@
 
     <div class="paper">
       <p><span class="tag accepted">ICLR 2026</span><strong>Streaming Autoregressive Video Generation via Diagonal Distillation</strong></p>
-      <p>Jinxiu Liu, Xuanming Liu, Kangfu Mei, Yandong Wen, Ming-Hsuan Yang, Weiyang Liu</p>
-      <p class="muted">Accepted by ICLR 2026, Top 10.75% submission according to Paper Copilot statistics.</p>
-      <p><a href="https://arxiv.org/abs/2603.09488">Paper Link</a></p>
+      <p>Xuanming Liu*, Jinxiu Liu*, Kangfu Mei, Yandong Wen, Ming-Hsuan Yang, Weiyang Liu</p>
+      <p class="muted">Accepted by ICLR 2026, top 10.75% submission according to Paper Copilot statistics. Alphabetical author order in paper.</p>
+      <p><a href="https://arxiv.org/abs/2603.09488">Paper</a> &nbsp;|&nbsp; <a href="https://openreview.net/forum?id=X7YW6STzeL">OpenReview</a> &nbsp;|&nbsp; <a href="https://iclr.cc/virtual/2026/poster/10009003">Poster</a> &nbsp;|&nbsp; <a href="https://github.com/Sphere-AI-Lab/diagdistill">Code</a></p>
+      <p class="muted">Summary: Diagonal Distillation is a streaming autoregressive video generation method that assigns more denoising steps to earlier segments and fewer to later ones, letting later segments inherit strong structural priors while greatly reducing total denoising cost. The method further aligns training and inference with diagonal forced training and uses flow distribution matching to preserve motion amplitude and temporal consistency under strict step budgets.</p>
     </div>
 
     <div class="paper">
-      <p><span class="tag review">Under Review</span><strong>SymbOmni: Evolving Agentic Omni Models via Symbolic Concept Learning</strong></p>
-      <p>Jinxiu Liu, Jianru Li, Kuang Tanqing, Xuanning Liu, Kangfu Mei, Yandong Wen, Weiyang Liu</p>
-      <p class="muted">CVPR 2026 Under Review, Top 17% Submission.</p>
-      <p>Paper Link</p>
+      <p><span class="tag review">CVPR 2026</span><strong>SymbOmni: Evolving Agentic Omni Models via Symbolic Concept Learning</strong></p>
+      <p>Jinxiu Liu*, Jianru Li*, Kuang Tanqing*, Xuanning Liu, Kangfu Mei, Yandong Wen, Weiyang Liu</p>
+      <p class="muted">CVPR 2026 under review, top 17% submission. Alphabetical author order in paper.</p>
+      <p class="muted">Summary: SymbOmni introduces a Symbolic Concept Box, an optimizable symbolic memory module that abstracts reusable workflow instructions from successful experiences. Through an induction-transformation loop and language-based backpropagation, the system evolves continuously without gradient fine-tuning, improving multimodal generation quality while reducing token use by more than 40%.</p>
     </div>
 
     <div class="paper">
-      <p><span class="tag review">Under Review</span><strong>XYZFlow: Scaling Multidimensional Shortcut Flows for Efficient Generative Modeling</strong></p>
-      <p>Xuanning Liu, Jinxiu Liu, Kangfu Mei, Yandong Wen, Weiyang Liu</p>
-      <p class="muted">ICML 2026 Under Review.</p>
-      <p>Paper Link</p>
+      <p><span class="tag review">ICML 2026</span><strong>XYZFlow: Scaling Multidimensional Shortcut Flows for Efficient Generative Modeling</strong></p>
+      <p>Xuanning Liu*, Jinxiu Liu*, Kangfu Mei, Yandong Wen, Weiyang Liu</p>
+      <p class="muted">ICML 2026 under review. Resume notes roughly top 5% submission indication.</p>
+      <p class="muted">Summary: XYZFlow replaces extensive model scaling with intensive scaling by imposing structured multidimensional constraints on probability flow. It injects complete denoising histories along time and spatial shortcut trajectories, using progressive denoising schedules to strengthen context and straighten generation paths for more efficient synthesis.</p>
+    </div>
+  </div>
+
+  <div class="section" id="opensource">
+    <h2>Open Source</h2>
+    <div class="paper">
+      <p><strong>Streaming Autoregressive Video Generation via Diagonal Distillation</strong></p>
+      <p><a href="https://github.com/Sphere-AI-Lab/diagdistill">Sphere-AI-Lab/diagdistill</a></p>
+      <p class="muted">GitHub stars in resume: 126</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <div class="res">
+      <ul>
+        <li>Vibe coding</li>
+        <li>LaTeX and scientific writing</li>
+        <li>Visualization and figure design</li>
+        <li>Fundamental programming and development in Python</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Collaborators</h2>
+    <div class="bio">
+      <p><strong>Jinxiu Liu</strong> — Ph.D. in Computer Science at Georgia Tech and Research Scientist at the Nex-AGI Team, working on efficient foundation models and agentic systems.</p>
+      <p><strong>Ming-Hsuan Yang</strong> — Professor at UC Merced and Research Scientist at Google DeepMind, known for influential work in computer vision, machine learning, and robotics.</p>
+      <p><strong>Weiyang Liu</strong> — Assistant Professor at CUHK and affiliated researcher at the Max Planck Institute for Intelligent Systems, leading Sphere Lab.</p>
+      <p><strong>Kang-Fu Mei</strong> — Senior Research Scientist at Google DeepMind, focusing on video generation, diffusion models, and multimodal generative AI.</p>
     </div>
   </div>
 </body>
