@@ -286,12 +286,11 @@
   <div class="section" id="experience">
     <h2>Internship Experience</h2>
     <div class="paper">
-      <p><strong>Sphere Lab</strong>, Hong Kong, China</p>
-      <p>Internship, advised by Jinxiu Liu and Weiyang Liu</p>
-      <p class="muted">July 2025 - Present</p>
+      <p><strong>Sphere Lab(The Chinese University of Hong Kong)</strong> Hong Kong, China</p>
+      <p>Internship, Advised by Jinxiu Liu and Weiyang Liu July 2025 - Present</p>
       <ul>
-        <li>Designed a novel distillation method for video generation models, achieving over 1.53× speedup compared to CausVid.</li>
-        <li>Designed a structured shortcut method that strengthens probability flow with multidimensional time-space constraints for efficient generation.</li>
+        <li><strong>(ICLR 2026)</strong> Designed a novel distillation method for video generation models, achieving over 1.53× speedup compared to CausVid.</li>
+        <li><strong>(ICML 2026 under review, 5 4 4)</strong> Designed a method to "strengthen" the probability flow by imposing constraints in multiple dimensions of time and space, replacing the traditional "expanding" model scaling with a structured shortcut, thereby achieving efficient generation.</li>
       </ul>
     </div>
   </div>
@@ -310,7 +309,7 @@
 
     <div class="paper">
       <p><span class="tag accepted">ICLR 2026</span><strong>Streaming Autoregressive Video Generation via Diagonal Distillation</strong></p>
-      <p>Xuanming Liu*, Jinxiu Liu*, Kangfu Mei, Yandong Wen, Ming-Hsuan Yang, Weiyang Liu</p>
+      <p><strong>Xuanming Liu*</strong>, Jinxiu Liu*, Kangfu Mei, Yandong Wen, Ming-Hsuan Yang, Weiyang Liu</p>
       <p class="muted">Accepted by ICLR 2026, top 10.75% submission according to Paper Copilot statistics. Alphabetical author order in paper.</p>
       <p><a href="https://arxiv.org/abs/2603.09488">Paper</a> &nbsp;|&nbsp; <a href="https://openreview.net/forum?id=X7YW6STzeL">OpenReview</a> &nbsp;|&nbsp; <a href="https://iclr.cc/virtual/2026/poster/10009003">Poster</a> &nbsp;|&nbsp; <a href="https://github.com/Sphere-AI-Lab/diagdistill">Code</a></p>
       <p class="muted">Summary: Diagonal Distillation is a streaming autoregressive video generation method that assigns more denoising steps to earlier segments and fewer to later ones, letting later segments inherit strong structural priors while greatly reducing total denoising cost. The method further aligns training and inference with diagonal forced training and uses flow distribution matching to preserve motion amplitude and temporal consistency under strict step budgets.</p>
@@ -318,15 +317,15 @@
 
     <div class="paper">
       <p><span class="tag review">CVPR 2026</span><strong>SymbOmni: Evolving Agentic Omni Models via Symbolic Concept Learning</strong></p>
-      <p>Jinxiu Liu*, Jianru Li*, Kuang Tanqing*, Xuanning Liu, Kangfu Mei, Yandong Wen, Weiyang Liu</p>
+      <p>Jinxiu Liu*, Jianru Li*, Kuang Tanqing*, <strong>Xuanming Liu</strong>, Kangfu Mei, Yandong Wen, Weiyang Liu</p>
       <p class="muted">CVPR 2026 under review, top 17% submission. Alphabetical author order in paper.</p>
       <p class="muted">Summary: SymbOmni introduces a Symbolic Concept Box, an optimizable symbolic memory module that abstracts reusable workflow instructions from successful experiences. Through an induction-transformation loop and language-based backpropagation, the system evolves continuously without gradient fine-tuning, improving multimodal generation quality while reducing token use by more than 40%.</p>
     </div>
 
     <div class="paper">
       <p><span class="tag review">ICML 2026</span><strong>XYZFlow: Scaling Multidimensional Shortcut Flows for Efficient Generative Modeling</strong></p>
-      <p>Xuanning Liu*, Jinxiu Liu*, Kangfu Mei, Yandong Wen, Weiyang Liu</p>
-      <p class="muted">ICML 2026 under review. Resume notes roughly top 5% submission indication.</p>
+      <p><strong>Xuanming Liu*</strong>, Jinxiu Liu*, Kangfu Mei, Yandong Wen, Weiyang Liu</p>
+      <p class="muted">ICML 2026 Under Review, (5(Accept), 4(Weak Accept), 4(Weak Accept), About 5% Submission)</p>
       <p class="muted">Summary: XYZFlow replaces extensive model scaling with intensive scaling by imposing structured multidimensional constraints on probability flow. It injects complete denoising histories along time and spatial shortcut trajectories, using progressive denoising schedules to strengthen context and straighten generation paths for more efficient synthesis.</p>
     </div>
   </div>
@@ -355,10 +354,12 @@
   <div class="section">
     <h2>Collaborators</h2>
     <div class="bio">
-      <p><strong>Jinxiu Liu</strong> — Ph.D. in Computer Science at Georgia Tech and Research Scientist at the Nex-AGI Team, working on efficient foundation models and agentic systems.</p>
-      <p><strong>Ming-Hsuan Yang</strong> — Professor at UC Merced and Research Scientist at Google DeepMind, known for influential work in computer vision, machine learning, and robotics.</p>
-      <p><strong>Weiyang Liu</strong> — Assistant Professor at CUHK and affiliated researcher at the Max Planck Institute for Intelligent Systems, leading Sphere Lab.</p>
-      <p><strong>Kang-Fu Mei</strong> — Senior Research Scientist at Google DeepMind, focusing on video generation, diffusion models, and multimodal generative AI.</p>
+      <ul>
+        <li><strong>Jinxiu Liu</strong> Ph.D. in Computer Science at Georgia Tech, Research Scientist at Nex-AGI Team, leading efficient foundation model and agentic system development. Previously research intern at ByteDance, Google DeepMind, and Stanford AI Lab.</li>
+        <li><strong>Ming-Hsuan Yang</strong> Computer scientist and professor at the University of California, Merced, and research scientist at Google DeepMind specializing in computer vision, machine learning, AI, and robotics. An IEEE, ACM, AAAI, and AAAS Fellow, he is a Highly Cited Researcher (2018–2025) known for influential work in object tracking, face detection, and image super-resolution. His honors include the NSF CAREER Award, Longuet-Higgins Prize, and ICML Best Paper Award.</li>
+        <li><strong>Weiyang Liu</strong> Assistant Professor, Department of Computer Science and Engineering, The Chinese University of Hong Kong (CUHK); Affiliated Researcher, Max Planck Institute for Intelligent Systems. Head of the SphereLab, focusing on principled machine learning, foundation models, and reasoning systems.</li>
+        <li><strong>Kang-Fu Mei</strong> Senior Research Scientist, Google DeepMind. Lead researcher on video generation (Veo/Genie) and diffusion models. Expertise includes multimodal generative AI, world modeling, and real-time on-device AI systems.</li>
+      </ul>
     </div>
   </div>
 </body>
