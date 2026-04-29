@@ -84,7 +84,7 @@
     .hero {
       margin-bottom: 1em;
       padding: 1.2em;
-      min-height: 190px;
+      min-height: 240px;
     }
 
     .bio {
@@ -106,21 +106,27 @@
       background: #FFFDEE;
     }
 
-    .avatar {
+    .avatar-wrap {
       float: left;
       width: 170px;
-      height: 170px;
+      height: 220px;
       border-radius: 14px;
-      object-fit: cover;
-      object-position: center top;
+      overflow: hidden;
       border: 1px solid #d8dee3;
       background: #e9eef1;
+    }
+
+    .avatar {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
       display: block;
     }
 
     .hero-text {
       padding-left: 15.5em;
-      min-height: 170px;
+      min-height: 220px;
     }
 
     .name {
@@ -214,7 +220,7 @@
         margin: 1em;
       }
 
-      .avatar {
+      .avatar-wrap {
         float: none;
         margin-bottom: 1em;
       }
@@ -236,7 +242,7 @@
 
   <a id="home"></a>
   <div class="hero">
-    <img class="avatar" src="./life.jpg" alt="Xuanming Liu portrait">
+    <div class="avatar-wrap"><img class="avatar" src="./life.jpg" alt="Xuanming Liu portrait"></div>
     <div class="hero-text">
       <p class="name">Xuanming Liu</p>
       <p class="subtitle">Senior High School Student · Generative AI · Efficient Multimodal Models</p>
