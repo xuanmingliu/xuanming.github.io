@@ -235,9 +235,13 @@
   <ol id="nav">
     <li><a href="#home" title="Home">Home</a></li>
     <li><a href="#about" title="About">About</a></li>
+    <li><a href="#interests" title="Interests">Interests</a></li>
     <li><a href="#experience" title="Experience">Experience</a></li>
+    <li><a href="#education" title="Education">Education</a></li>
     <li><a href="#projects" title="Projects">Projects</a></li>
     <li><a href="#opensource" title="Open Source">Open Source</a></li>
+    <li><a href="#skills" title="Skills">Skills</a></li>
+    <li><a href="#collaborators" title="Collaborators">Collaborators</a></li>
     <li><a href="mailto:xuanmingliu0120@gmail.com" title="Contact">Contact</a></li>
   </ol>
 
@@ -250,7 +254,6 @@
       <div class="links">
         <a href="https://xuanmingliu.github.io/xuanming.github.io/">Homepage</a>
         <a href="mailto:xuanmingliu0120@gmail.com">Email</a>
-        <a href="./Xuanming_Liu_resume%20(3).pdf">Resume</a>
       </div>
       <div class="meta">
         <p><strong>Email:</strong> xuanmingliu0120@gmail.com</p>
@@ -270,16 +273,12 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="interests">
     <h2>Research Interests</h2>
-    <div class="res">
-      <ul>
-        <li>Generative AI and efficient multimodal models</li>
-        <li>Breaking the efficiency-quality tradeoff in generative modeling</li>
-        <li>Dynamic compute allocation and generation-process optimization</li>
-        <li>Training-inference co-design for fast, lightweight generation</li>
-        <li>Applications in game simulation, real-time creation, and edge computing</li>
-      </ul>
+    <div class="bio">
+      <p><strong>Generative AI, Efficient Multimodal Models</strong></p>
+      <p>Overcoming the "efficiency-quality" dilemma of generative AI. The existing powerful generative models perform exceptionally well in offline tests, but their high inference costs severely hinder their application in key scenarios such as real-time interaction, mobile computing, and long content generation.</p>
+      <p>My research interest lies precisely in addressing this core contradiction: Can we, and how, make generative AI maintain "good" performance when it must be "fast" and "light"? I explore a series of cutting-edge approaches beyond simple model compression, including dynamic computing allocation, essential optimization of the generation process, and collaborative design of training-inference, aiming to systematically break through the efficiency bottlenecks of existing models and unlock their new possibilities in areas such as game simulation, real-time creation, and edge computing.</p>
     </div>
   </div>
 
@@ -318,18 +317,18 @@
     <div class="paper">
       <p><span class="tag review">ECCV 2026</span><strong>SymbOmni: Evolving Agentic Omni Models via Symbolic Concept Learning</strong></p>
       <p>Jinxiu Liu*, Jianru Li*, Kuang Tanqing*, <strong>Xuanming Liu</strong>, Kangfu Mei, Yandong Wen, Weiyang Liu</p>
+      <p class="muted">(alphabetical order in paper)</p>
       <p class="muted"><strong>ECCV 2026 Under Review</strong></p>
       <p><a href="https://brandon-liu-jx.github.io/SymbOmni__Evolving_Agentic_Omni_Models_via_Symbolic_Concept_Learning_.pdf">Paper Link</a></p>
-      <p class="muted">(alphabetical order in paper)</p>
       <p class="muted">Summary: SymbOmni introduces a Symbolic Concept Box, an optimizable symbolic memory module that abstracts reusable workflow instructions from successful experiences. Through an induction-transformation loop and language-based backpropagation, the system evolves continuously without gradient fine-tuning, improving multimodal generation quality while reducing token use by more than 40%.</p>
     </div>
 
     <div class="paper">
       <p><span class="tag review">ICML 2026</span><strong>XYZFlow: Scaling Multidimensional Shortcut Flows for Efficient Generative Modeling</strong></p>
       <p><strong>Xuanming Liu*</strong>, Jinxiu Liu*, Kangfu Mei, Yandong Wen, Weiyang Liu</p>
+      <p class="muted">(alphabetical order in paper)</p>
       <p class="muted"><strong>ICML 2026 Under Review, (5(Accept), 4(Weak Accept), 4(Weak Accept), About 5% Submission)</strong></p>
       <p><a href="https://openreview.net/pdf?id=doyI2chEdG">Paper Link</a></p>
-      <p class="muted">(alphabetical order in paper)</p>
       <p class="muted">Summary: XYZFlow replaces extensive model scaling with intensive scaling by imposing structured multidimensional constraints on probability flow. It injects complete denoising histories along time and spatial shortcut trajectories, using progressive denoising schedules to strengthen context and straighten generation paths for more efficient synthesis.</p>
     </div>
   </div>
@@ -343,7 +342,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="skills">
     <h2>Skills</h2>
     <div class="res">
       <ul>
@@ -355,7 +354,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="collaborators">
     <h2>Collaborators</h2>
     <div class="bio">
       <ul>
